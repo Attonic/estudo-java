@@ -13,8 +13,15 @@ public class SmartTv {
         canal--;
     }
 
+    /**
+     * @param novoCanal Primeiro parâmetro do metodo
+     * Este metodo muda o canal para um canal especifico
+     */
+
     public void mudarCanal(int novoCanal){
         canal = novoCanal;
+
+
     }
 
     public void aumentarVolume(){

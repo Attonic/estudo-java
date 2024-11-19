@@ -1,3 +1,8 @@
+/**
+* @author Antonio CLeison
+* @version 1.0
+* @since
+*/
 package projetos.projetotv;
 
 public class Usuario {
@@ -13,6 +18,7 @@ public class Usuario {
 
         smartTv.mudarCanal(22);
             System.out.println("Canal Atual" + smartTv.canal);
+
 
         System.out.println("TV ligada? " + smartTv.ligada);
 
